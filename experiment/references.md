@@ -1,1 +1,4 @@
-### Link your references in here
+### References
+
+1. C. Lei, J. Yang, J. Hu, X. Sun, On the Calculation of TCID(50) for Quantitation of Virus Infectivity, Virol Sin, 36 (2021) 141-144.
+2. R. Kumar, V. Kumar, P. Kekungu, N.N. Barman, S. Kumar, Evaluation of surface glycoproteins of classical swine fever virus as immunogens and reagents for serological diagnosis of infections in pigs: a recombinant Newcastle disease virus approach, Arch Virol, 164 (2019) 3007-3017.
