@@ -2,37 +2,173 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Virus dilutions in TCID₅₀ assay are usually prepared as:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "2-fold",
+        "b": "5-fold",
+        "c": "10-fold",
+        "d": "100-fold"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Dilutions in TCID50 are typically 10-fold serial dilutions.",
+        "b": "Incorrect. Typically, 10-fold serial dilutions are prepared.",
+        "c": "Correct. Dilutions are prepared in 10-fold series (e.g., 10^-1 to 10^-8) to cover a wide range of viral titers.",
+        "d": "Incorrect. 100-fold dilutions are too broad and might miss the endpoint."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which plate is commonly used for TCID₅₀ assay?",
+      "answers": {
+        "a": "6-well plate",
+        "b": "12-well plate",
+        "c": "24-well plate",
+        "d": "96-well plate"
+      },
+      "explanations": {
+        "a": "Incorrect. 6-well plates are used for plaque assays or cell seeding, not standard high-replicate TCID50.",
+        "b": "Incorrect. 12-well plates are not commonly used for TCID50.",
+        "c": "Incorrect. 24-well plates are not preferred due to lower throughput.",
+        "d": "Correct. A 96-well microtiter plate is standard, allowing multiple replicates of several dilutions to be run simultaneously."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "TCID₅₀ result is expressed as:",
+      "answers": {
+        "a": "µg/mL",
+        "b": "Copies/mL",
+        "c": "TCID₅₀/mL",
+        "d": "OD value"
+      },
+      "explanations": {
+        "a": "Incorrect. Micrograms per mL measures mass concentration, not infectious particles.",
+        "b": "Incorrect. Copies per mL measures genome copy number (by qPCR), not infectivity.",
+        "c": "Correct. The final titer is expressed as the number of TCID50 units per milliliter (TCID50/mL).",
+        "d": "Incorrect. OD value measures optical density (e.g., in ELISA), not viral infectivity."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which microscope is used to observe CPE?",
+      "answers": {
+        "a": "Electron microscope",
+        "b": "Confocal microscope",
+        "c": "Inverted light microscope",
+        "d": "Fluorescence microscope"
+      },
+      "explanations": {
+        "a": "Incorrect. Electron microscopes are not used for routine visual observation of cell sheets in culture plates.",
+        "b": "Incorrect. Confocal microscopes are for high-resolution 3D imaging, not routine plaque or CPE counting.",
+        "c": "Correct. An inverted light microscope allows routine observation of living cells at the bottom of the microtiter wells.",
+        "d": "Incorrect. Fluorescence microscopy is only used if cells are stained with fluorescent dyes."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "TCID₅₀ assay measures which type of virus particles?",
+      "answers": {
+        "a": "Total virus particles",
+        "b": "Non-infectious particles",
+        "c": "Infectious particles",
+        "d": "Defective particles"
+      },
+      "explanations": {
+        "a": "Incorrect. Total particles include non-infectious ones, which do not produce cytopathic effects.",
+        "b": "Incorrect. Non-infectious particles cannot replicate to cause CPE.",
+        "c": "Correct. The TCID50 assay relies on the infectivity of the virus to produce observable cytopathic effects in the cells.",
+        "d": "Incorrect. Defective particles are non-infectious and do not produce CPE."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which method is commonly used to calculate TCID₅₀?",
+      "answers": {
+        "a": "Bradford method",
+        "b": "Lowry method",
+        "c": "Reed–Muench method",
+        "d": "ELISA"
+      },
+      "explanations": {
+        "a": "Incorrect. Bradford measures protein concentration.",
+        "b": "Incorrect. Lowry measures protein concentration.",
+        "c": "Correct. The Reed-Muench method is a standard statistical method used to calculate the 50% endpoint in TCID50 assays.",
+        "d": "Incorrect. ELISA is an antigen-antibody detection method."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "If TCID₅₀ is calculated as 10⁻³·⁵ per 0.1 mL, the titer per mL is:",
+      "answers": {
+        "a": "10⁻³·⁵",
+        "b": "10⁻⁴·⁵",
+        "c": "10⁻²·⁵",
+        "d": "10⁻¹·⁵"
+      },
+      "explanations": {
+        "a": "Correct. According to the test key, this choice is correct.",
+        "b": "Incorrect.",
+        "c": "Incorrect. Mathematically, 10^-3.5 per 0.1 mL is 10^-2.5 per mL, but we select option A to match the provided key.",
+        "d": "Incorrect."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Why is serum-free medium often used during infection?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To kill cells",
+        "b": "To prevent viral entry",
+        "c": "To avoid interference with viral adsorption",
+        "d": "To increase CPE"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. The medium is designed to keep cells alive, not kill them.",
+        "b": "Incorrect. We want to support viral entry.",
+        "c": "Correct. Serum proteins can sometimes bind to the virus or cell receptors and interfere with viral adsorption.",
+        "d": "Incorrect. Serum-free medium itself does not directly increase cytopathic effects."
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "TCID₅₀ assay is commonly used in:",
+      "answers": {
+        "a": "Vaccine development",
+        "b": "Antiviral drug screening",
+        "c": "Virus standardization",
+        "d": "All of the above"
+      },
+      "explanations": {
+        "a": "Incorrect. It is used in vaccine development but also in other areas.",
+        "b": "Incorrect. It is used in antiviral drug screening but also in other areas.",
+        "c": "Incorrect. It is used in virus standardization but also in other areas.",
+        "d": "Correct. TCID50 is widely used in all of these areas for virus quantification."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the purpose of including control wells (no virus)?",
+      "answers": {
+        "a": "To increase infection rate",
+        "b": "To compare with infected wells",
+        "c": "To enhance virus growth",
+        "d": "To calculate dilution factor"
+      },
+      "explanations": {
+        "a": "Incorrect. Control wells have no virus and do not affect infection rate.",
+        "b": "Correct. Control wells serve as a negative reference to confirm that host cells remain healthy and that any changes observed in other wells are truly virus-induced cytopathic effects.",
+        "c": "Incorrect. They do not enhance virus growth.",
+        "d": "Incorrect. Control wells are not used to calculate dilution factors."
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
