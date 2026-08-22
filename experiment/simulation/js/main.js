@@ -7,15 +7,19 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             src: './images/Step2.mp4',
-            caption: 'Step 2: Trypsinize cells and seed in a 96-well plate.'
+            caption: 'Step 2: Trypsinise the cells'
         },
         {
             src: './images/Step3.mp4',
-            caption: 'Step 3: Prepare serial ten-fold dilutions (from 10⁻¹ to 10⁻⁸) of the viral stock suspension.'
+            caption: 'Step 3: Seed the cells in a 96-well plate'
         },
         {
             src: './images/Step4.mp4',
-            caption: 'Step 4: Incubate for 72 hours, observe wells under a microscope to score for Cytopathic Effect (CPE), and calculate the TCID50 endpoint.'
+            caption: 'Step 4: Prepare ten-fold serial dilutions of the viral stock suspension.'
+        },
+        {
+            src: './images/Step5.mp4',
+            caption: 'Step 5: Add the viral dilutions to the cells, then incubate for up to 72 hours. Observe wells under a microscope to score for Cytopathic Effect (CPE), and calculate the TCID50 endpoint.'
         }
     ];
 
