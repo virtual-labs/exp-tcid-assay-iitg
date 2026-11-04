@@ -2,37 +2,173 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What does TCID₅₀ stand for?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Total cell infection dose",
+        "b": "Tissue culture infectious dose 50%",
+        "c": "Toxic cell inhibitory dose",
+        "d": "Total cytopathic infectious dose"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. TCID stands for Tissue Culture Infectious Dose.",
+        "b": "Correct. TCID50 refers to the Tissue Culture Infectious Dose 50% (the dilution of virus required to infect 50% of cell cultures).",
+        "c": "Incorrect. TCID stands for Tissue Culture Infectious Dose.",
+        "d": "Incorrect. TCID stands for Tissue Culture Infectious Dose."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "TCID₅₀ assay is used to measure:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Total viral RNA",
+        "b": "Viral protein concentration",
+        "c": "Infectious virus particles",
+        "d": "Antibody titer"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. TCID50 measures infectious viral particles, not total RNA.",
+        "b": "Incorrect. It measures the infectivity of the virus, not its total protein concentration.",
+        "c": "Correct. The TCID50 assay specifically quantifies infectious virus particles by looking for cytopathic effects in cell culture.",
+        "d": "Incorrect. Antibody titer is measured by other assays, like neutralization or ELISA."
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "TCID₅₀ assay is performed using:",
+      "answers": {
+        "a": "Animals",
+        "b": "Bacterial culture",
+        "c": "Cell culture",
+        "d": "Agar plates"
+      },
+      "explanations": {
+        "a": "Incorrect. Tissue culture systems (cell culture) are used, not whole animals.",
+        "b": "Incorrect. Viruses require eukaryotic cell culture to replicate, not bacteria.",
+        "c": "Correct. A susceptible cell culture line is seeded in a microtiter plate and infected with serial dilutions of the virus.",
+        "d": "Incorrect. Agar plates are used for plaque assays or bacteria, not TCID50 tissue culture."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which change is observed to detect viral infection in TCID₅₀ assay?",
+      "answers": {
+        "a": "Color change",
+        "b": "Fluorescence",
+        "c": "Cytopathic effect (CPE)",
+        "d": "Plaque formation"
+      },
+      "explanations": {
+        "a": "Incorrect. Direct microscopic examination of cells is done, not color change.",
+        "b": "Incorrect. Fluorescence is not required for standard TCID50 assay.",
+        "c": "Correct. Cells are examined microscopically for virus-induced morphological changes, known as cytopathic effect (CPE).",
+        "d": "Incorrect. Plaque formation is observed in plaque assays, not TCID50."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which type of cells are required for TCID₅₀ assay?",
+      "answers": {
+        "a": "Resistant cells",
+        "b": "Susceptible and permissive cells",
+        "c": "Dead cells",
+        "d": "Bacterial cells"
+      },
+      "explanations": {
+        "a": "Incorrect. Resistant cells cannot be infected by the virus.",
+        "b": "Correct. Host cells must be both susceptible (having receptors for entry) and permissive (supporting viral replication) to demonstrate cytopathic effects.",
+        "c": "Incorrect. Dead cells cannot support viral replication.",
+        "d": "Incorrect. Bacterial cells are not host cells for animal viruses."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What does CPE indicate?",
+      "answers": {
+        "a": "Cell death due to chemicals",
+        "b": "Virus-induced changes in cells",
+        "c": "Bacterial contamination",
+        "d": "Cell proliferation"
+      },
+      "explanations": {
+        "a": "Incorrect. CPE specifically refers to changes induced by virus infection.",
+        "b": "Correct. Cytopathic effect (CPE) refers to structural and morphological changes in host cells caused by viral invasion.",
+        "c": "Incorrect. CPE is virus-induced, not due to bacterial contamination.",
+        "d": "Incorrect. CPE leads to cell rounding, detachment, lysis, or syncytia, not proliferation."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why are multiple replicate wells used for each dilution?",
+      "answers": {
+        "a": "To save virus",
+        "b": "To increase accuracy",
+        "c": "To reduce incubation time",
+        "d": "To prevent contamination"
+      },
+      "explanations": {
+        "a": "Incorrect. Replicate wells require more virus volume, not less.",
+        "b": "Correct. Replicate wells (usually 3-4 per dilution) are used to calculate the percentage of infected wells at each dilution, increasing statistical accuracy.",
+        "c": "Incorrect. Replicates do not affect the incubation time.",
+        "d": "Incorrect. Replicates do not prevent contamination."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "TCID₅₀ is preferred over plaque assay when:",
+      "answers": {
+        "a": "Virus forms clear plaques",
+        "b": "Virus does not produce plaques",
+        "c": "Virus is non-infectious",
+        "d": "Virus is DNA virus"
+      },
+      "explanations": {
+        "a": "Incorrect. If a virus forms clear plaques, plaque assay is usually preferred for direct quantification.",
+        "b": "Correct. TCID50 is particularly useful for viruses that do not form clear, well-defined plaques in cell culture.",
+        "c": "Incorrect. Both assays require infectious virus to produce visible effects.",
+        "d": "Incorrect. The type of genome (DNA/RNA) is not the deciding factor."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the purpose of serial dilution in TCID₅₀ assay?",
+      "answers": {
+        "a": "To increase virus concentration",
+        "b": "To obtain a measurable infection range",
+        "c": "To kill the virus",
+        "d": "To stain infected cells"
+      },
+      "explanations": {
+        "a": "Incorrect. Dilution decreases the virus concentration.",
+        "b": "Correct. Serial dilution helps locate the endpoint dilution where exactly 50% of the host cell cultures show infection.",
+        "c": "Incorrect. Dilution does not kill the virus.",
+        "d": "Incorrect. Dilution is not used for staining."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the endpoint in a TCID₅₀ assay?",
+      "answers": {
+        "a": "100% cell death",
+        "b": "50% of wells showing infection",
+        "c": "No infection observed",
+        "d": "Maximum virus dilution"
+      },
+      "explanations": {
+        "a": "Incorrect. 100% infection is not the endpoint for a 50% infectious dose calculation.",
+        "b": "Correct. The endpoint is the dilution at which 50% of the test units (wells) are infected.",
+        "c": "Incorrect. No infection does not help calculate the infectious dose.",
+        "d": "Incorrect. The maximum dilution may not show any infection at all."
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
